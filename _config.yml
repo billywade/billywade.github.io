@@ -1,3 +1,5 @@
+# Use this theme: http://jekyllthemes.org/themes/flexible-jekyll/
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -14,7 +16,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Trey Merkley
-email: billy.wade@protonmail.ch
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   My current data science and artificial intelligence research
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,20 +26,9 @@ github_username:  treymerkley
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack #minima
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-avatar
-# Hydejack stuff
-accent_image: none #/assets/img/sidebar-bg.jpg
-background: '#33333'
-accent_color: '#333333'
-overlay: false
-author:
-        social:
-                linkedin: biwade
-                email: mailto:<billy.wade@protonmail.ch>
-                rss: https://treymerkley.github.io/feed.xml
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
